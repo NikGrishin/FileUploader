@@ -1,0 +1,26 @@
+{
+  "name": "Dream.test",
+  "version": "1.0.0",
+  "description": "Simple file uploader",
+  "main": "app.js",
+  "scripts": {
+    "preinstall": "bower install",
+    "start": "node app.js & webpack-dev-server"
+  },
+  "author": "NickyGrishin <nicky.grishin@gmail.com>",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "bower": "^1.7.1",
+    "querystring": "^0.2.0",
+    "socket.io": "^1.3.7"
+  },
+  "devDependencies": {
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0",
+    "html-loader": "^0.4.0",
+    "html-webpack-plugin": "^1.7.0",
+    "css-loader": "^0.23.0",
+    "file-loader": "^0.8.5",
+    "style-loader": "^0.13.0"
+  }
+}

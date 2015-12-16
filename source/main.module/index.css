@@ -1,0 +1,73 @@
+@import url('~bootstrap/dist/css/bootstrap.min.css');
+@import url(https://fonts.googleapis.com/css?family=Bad+Script);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300italic);
+
+body {
+    background: rgba(0,0,0,0.03);
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-family: 'Bad Script', cursive;
+    background: #fff;
+}
+
+main {
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    height: 30px;
+    padding: 25px;
+    text-align: center;
+    border-top: 1px solid #e1e1e1;
+    margin-top: 30px;
+    font-family: 'Bad Script', cursive;
+}
+
+section#explanation {
+    padding: 25px;
+    border: 1px dashed #e1e1e1;
+    margin: 15px 0;
+}
+
+/* <Drag zone> */
+section#file-zone-dr {
+     border: 5px solid #006666;
+     height: 500px;
+     border-radius: 10px;
+     background: #fff;
+}
+
+section#file-zone-dr-hover {
+    border: 5px solid #006666;
+    height: 500px;
+    border-radius: 10px;
+    background: aliceblue;
+    position: relative;
+    text-align: center;
+}
+
+section#file-zone-dr-hover:after {
+    content: ' DROP HERE ';
+    opacity: 0.3;
+    color: rgba(0, 0, 0, 0.3);
+    position: relative;
+    font-size: 2.3em;
+    top: 45%;
+    margin: 0 auto;
+}
+
+section#file-zone-dr-drop {
+    border: 5px solid #006666;
+    height: 500px;
+    border-radius: 10px;
+    background: #c1e2b3;
+}
+/* </Drag zone> */
