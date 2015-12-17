@@ -3,14 +3,20 @@
 You need Webpack and Bower installed globally:
 
 ```sh
-$ npm i -g webpack bower
+$ npm i -g webpack webpack-dev-server bower
 ```
 
 ```sh
 $ npm i
 $ npm start
 ```
+###Alternative way to run
+```sh
+$ node app.js
+$ webpack-dev-server
+```
 
 ### Todo
-- Add event handlers to show progress
-- Add real-time updates
+- Add delete function
+- Add unique file names
+- Add files.json
