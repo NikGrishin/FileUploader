@@ -1,0 +1,9 @@
+section#file-list-wrapper {
+    height: 200px;
+    overflow-y: auto;
+
+    border: 3px dashed #e1e1e1;
+    border-radius: 10px;
+    padding: 5px;
+    background: #fff;
+}
